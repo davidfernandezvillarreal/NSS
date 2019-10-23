@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Network Smart Signal</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_acerca_de">Acerca de</string>
+    <string name="txt_redes_moviles">Redes Móviles</string>
+    <string name="txt_redes_wifi">Redes Wifi</string>
+    <string name="title_activity_wifi">Wifi</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="contenido_acerca_de">Contenido de acerca de ©</string>
+    <string name="txt_cerrar">Cerrar</string>
+</resources>
