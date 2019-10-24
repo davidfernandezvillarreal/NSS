@@ -1,9 +1,12 @@
 package com.nss.nss;
 
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -49,6 +52,19 @@ public class Inicio extends AppCompatActivity implements View.OnClickListener {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_acerca_de) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle(R.string.action_acerca_de);
+            builder.setMessage(R.string.contenido_acerca_de);
+            builder.setPositiveButton(R.string.txt_cerrar, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+
+                }
+            });
+
+            Dialog dialogo = builder.create();
+            dialogo.show();
+
             return true;
         }
 

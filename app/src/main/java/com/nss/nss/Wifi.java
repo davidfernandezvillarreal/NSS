@@ -81,8 +81,6 @@ public class Wifi extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_acerca_de) {
-
-
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle(R.string.action_acerca_de);
             builder.setMessage(R.string.contenido_acerca_de);
